@@ -1,1 +1,0 @@
-(()=>{"use strict";(new class{constructor(s){this.type=s}displayType(){console.log(this.type)}}).displayType(),console.log(30)})();
