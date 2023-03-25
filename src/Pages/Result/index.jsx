@@ -10,7 +10,7 @@ function ResultPage() {
 
 
   return (
-    <div className='flex flex-col items-center '>
+    <div className='flex flex-col items-center m-10'>
       <div >
         <svg width="147" height="155" viewBox="0 0 147 155" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M121.743 68.3608H24.938V152.049H121.743V68.3608Z" fill="url(#paint0_linear_14_516)" />
@@ -73,8 +73,8 @@ function ResultPage() {
         Results of Fantasy Quiz #156
       </p>
 
-      <div className='bg-white w-1/3 p-5 mt-3 flex flex-col items-center rounded-lg'>
-        <div className='flex items-center gap-3'>
+      <div className=' w-1/3 p-5 mt-3 flex flex-col items-center gap-[1px]'>
+        <div className='flex items-center gap-3 bg-white w-full rounded-t-lg px-4 py-2'>
           <svg className=' bg-yellow-200 rounded-full h-10 w-10' width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M21.34 11.17C11.17 11.17 11.17 13.807 1 13.807V3.63703C11.17 3.63703 11.17 1 21.34 1V11.17Z" fill="#F0EBE6" stroke="url(#paint0_linear_14_506)" stroke-width="0.716196" stroke-miterlimit="10" />
             <path d="M23.5516 13.3615C13.3816 13.3615 13.3816 16 3.21161 16V5.83002C13.3816 5.83002 13.3816 3.19156 23.5516 3.19156V13.3615Z" fill="url(#paint1_linear_14_506)" />
@@ -111,7 +111,7 @@ function ResultPage() {
           </p>
 
         </div>
-        <div className='flex items-center mt-2 gap-3'>
+        <div className='flex items-center gap-3 bg-white w-full rounded-b-lg px-4 py-2'>
 
           <svg className=' bg-yellow-200 rounded-full h-10 w-10' width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg
         ">
@@ -125,7 +125,7 @@ function ResultPage() {
       </div>
 
       <div>
-        <button className='h-10 w-20 bg-green-500'
+        <button className='h-10 w-20 mt-5 bg-green-500 rounded-lg'
         
           onClick={() => {
             nav('/', { replace: true });

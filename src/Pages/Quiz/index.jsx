@@ -16,7 +16,7 @@ function Quiz() {
                 <p className='text-center text-2xl font-bold w-[80%]'>{quizzes[page].question}</p>
                 <div className='flex flex-col w-full flex-1 justify-evenly items-center'>
                     <button type='button' className={clsx(' bg-white w-1/4 font-bold flex items-center px-1 py-3 rounded-xl pl-5 hover:bg-green-400', {
-                        'bg-green-400' : val === 'A'
+                        'bg-green-300' : val === 'A'
                     })} onClick={() => activeVal('A')
 }
                     >
